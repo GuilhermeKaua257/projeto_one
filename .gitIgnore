@@ -1,1 +1,60 @@
+# Dependencies
 /node_modules
+/jspm_packages
+
+# Optional npm cache files
+.npm
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for placing auto-generated transcripts and other temporary files
+/lib-cov
+
+# Coverage directory used by tools like istanbul
+/coverage
+
+# nyc instrumenter
+/.nyc_output
+
+# Grunt intermediate storage (gruntjs.com)
+.grunt
+
+# Bower directory used by older projects (bower.io)
+/bower_components
+
+# gulp intermediate storage (gulpjs.com)
+/dist
+/tmp
+
+# TypeScript v1 source maps and output
+*.js.map
+*.d.ts
+
+# Optional: dotenv config files (github.com)
+.env
+.env.test
+
+# Certificates
+certs
+*.pem
+
+# Editors and IDEs
+.vscode
+.idea
+.project
+.classpath
+.c9/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
